@@ -1,0 +1,31 @@
+import { Request, Response } from 'express';
+import { LowdbService } from '../../lowdb/lowdb.service';
+export declare class UsuariosAPPWEBMockController {
+    private readonly lowdbService;
+    constructor(lowdbService: LowdbService);
+    postUsuarioSesion(req: Request, res: Response): Promise<Response<any, Record<string, any>>>;
+    deleteUsuarioSesion(res: Response): void;
+    postSesionToken(req: Request, res: Response): Promise<void>;
+    getEmpresas(req: Request, res: Response): Promise<Response<any, Record<string, any>>>;
+    getConfiguracionClave(res: Response): void;
+    putClave(res: Response): void;
+    postGenerateNuevoCodigoCiu(res: Response): void;
+    postCalveCiu(req: Request, res: Response): void;
+    getFormato(res: Response): void;
+    postValidUsuarioNoUnificado(req: Request, res: Response): void;
+    postValidClave(res: Response): void;
+    postValidAlias(req: any, res: Response): Promise<void>;
+    postRecupero(req: Request, res: Response): void;
+    countResendEmail: number;
+    postReenvioEmail(res: Response): void;
+    postClaveRecupero(req: Request, res: Response): void;
+    postSesionZombie(res: Response): void;
+    getUsuarioInfo(req: Request, res: Response): Promise<void>;
+    getConfiguracionDatos(req: Request, res: Response): Promise<void>;
+    modificarEmailUsuario(res: Response): void;
+    modificarTelefonoUsuario(res: Response): void;
+    countIntentosCambioClave: number;
+    putValidClaveSFA(res: Response): void;
+    modificarAliasUsuarioTandem(res: Response): void;
+    getConfiguracionUnificacion(res: Response): void;
+}
