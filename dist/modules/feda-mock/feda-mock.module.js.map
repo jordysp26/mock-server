@@ -1,1 +1,0 @@
-{"version":3,"file":"feda-mock.module.js","sourceRoot":"","sources":["../../../src/modules/feda-mock/feda-mock.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,6DAAyD;AACzD,iEAA4D;AAMrD,IAAM,cAAc,GAApB,MAAM,cAAc;CAAG,CAAA;AAAjB,cAAc;IAJ1B,IAAA,eAAM,EAAC;QACN,WAAW,EAAE,CAAC,yCAAkB,CAAC;QACjC,SAAS,EAAE,CAAC,4BAAY,CAAC;KAC1B,CAAC;GACW,cAAc,CAAG;AAAjB,wCAAc"}
