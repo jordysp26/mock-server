@@ -1,0 +1,66 @@
+{
+    "cases-detail": [
+        {
+            "id": 503,
+            "fechaAlta": null,
+            "nroCaso": "CAS-97-2024",
+            "usuGenerador": "24116",
+            "usuGeneradorNombre": "ZAISER MARISEL ROSANA",
+            "usuGeneradorRol": "ROL_PRODUCTOR",
+            "titulo": "CAS-97-2024 - Reintegro",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "estado": {
+                "id": 2,
+                "descripcion": null,
+                "nombre": "Esperando Respuesta"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": null,
+            "emailReceptor": null,
+            "creacionAutomatica": false,
+            "motivo": {
+                "id": 15,
+                "tiempoSLA": 72,
+                "nombre": "Reintegro"
+            },
+            "destinatarios": null,
+            "vencimientoSla": "2024-08-15"
+        },
+        {
+            "id": 321,
+            "fechaAlta": null,
+            "nroCaso": "CAS-97-2024",
+            "usuGenerador": "24116",
+            "usuGeneradorNombre": "ZAISER MARISEL ROSANA - Test",
+            "usuGeneradorRol": "ROL_PRODUCTOR",
+            "titulo": "CAS-97-2024 - Reintegro",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "estado": {
+                "id": 2,
+                "descripcion": null,
+                "nombre": "Esperando Respuesta"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": null,
+            "emailReceptor": null,
+            "creacionAutomatica": false,
+            "motivo": {
+                "id": 15,
+                "tiempoSLA": 72,
+                "nombre": "Reintegro"
+            },
+            "destinatarios": null,
+            "vencimientoSla": "2024-08-15"
+        }
+    ]
+}

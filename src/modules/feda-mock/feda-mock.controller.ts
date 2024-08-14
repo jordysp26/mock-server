@@ -39,7 +39,7 @@ import {
         );
 
         const user = await this.lowdbService.find(
-          { id: "12345" },
+          { id: "123456" },
           'users',
         );
   
@@ -111,5 +111,34 @@ import {
       }
     }
     
+    // Obtiene caso por id
+    @Get('/case-detail/:caseId')
+    async getCaseDetailById(@Headers() headers, @Req() req: Request, @Res() res: Response) {
+      const typeResponse = 0;
+      const idCase = req.params.caseId;
+
+      try {
+        if (typeResponse > 0) {
+          throw 'Error interno';
+        }
+        
+        await this.lowdbService.initDatabase(
+          './src/modules/feda-mock/json/feda-cases-detail.json',
+        );
+        
+        const caseDetail = await this.lowdbService.find(
+          { id: Number(idCase) },
+          'cases-detail',
+        );
+
+        return res.status(HttpStatus.OK).json(caseDetail);
+      } catch (error) {
+        return res.status(406).json({
+          codigoResultado: '99',
+          descripcionResultado:
+            'Error al obtener el caso para el usuario',
+        });
+      }
+    }
 }
   
