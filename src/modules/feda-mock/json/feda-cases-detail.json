@@ -1,128 +1,334 @@
 {
     "cases-detail": [
         {
-            "id": 503,
-            "fechaAlta": null,
-            "nroCaso": "CAS-97-2024",
-            "usuGenerador": "24116",
-            "usuGeneradorNombre": "ZAISER MARISEL ROSANA",
-            "usuGeneradorRol": "ROL_PRODUCTOR",
-            "titulo": "CAS-97-2024 - Reintegro",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "usuPropietario": null,
-            "usuPropietarioNombre": null,
-            "usuPropietarioRol": null,
-            "estado": {
-                "id": 2,
-                "descripcion": null,
-                "nombre": "Esperando Respuesta"
-            },
-            "grupoCodigo": 2,
-            "fechaModificacion": null,
-            "areaCodigo": null,
-            "emailContacto": null,
-            "emailReceptor": null,
-            "creacionAutomatica": false,
-            "motivo": {
-                "id": 15,
-                "tiempoSLA": 72,
-                "nombre": "Reintegro"
-            },
-            "destinatarios": null,
-            "vencimientoSla": "2024-08-15"
-        },
-        {
             "id": 321,
-            "fechaAlta": "15/03/2024 10:30hs.",
-            "nroCaso": "CAS-97-2024",
-            "usuGenerador": "24116",
-            "usuGeneradorNombre": "ZAISER MARISEL ROSANA",
-            "usuGeneradorRol": "ROL_PRODUCTOR",
-            "titulo": "CAS-97-2024 - Reintegro",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "fechaAlta": "2024-07-31",
+            "nroCaso": "CAS-142-2024",
+            "usuGenerador": "Prestador",
+            "usuGeneradorNombre": "Prestador",
+            "usuGeneradorRol": "Prestador",
+            "titulo": "Dictamen",
+            "descripcion": "org.hibernate.engine.jdbc.ClobProxy@7207f447",
             "usuPropietario": null,
             "usuPropietarioNombre": null,
             "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
             "estado": {
-                "id": 2,
-                "descripcion": null,
-                "nombre": "Esperando Respuesta"
-            },
-            "grupoCodigo": 2,
-            "fechaModificacion": null,
-            "areaCodigo": null,
-            "emailContacto": null,
-            "emailReceptor": "emailreceptor@mail.com",
-            "creacionAutomatica": false,
-            "motivo": {
-                "id": 15,
-                "tiempoSLA": 72,
-                "nombre": "Reintegro"
-            },
-            "destinatarios": ["esperandorespuesta@mail.com", "test@mail.com", "test2@mail.com"],
-            "vencimientoSla": "2024-08-15"
-        },
-        {
-            "id": 323,
-            "fechaAlta": "11/08/2024 09:32hs.",
-            "nroCaso": "CAS-99-2024",
-            "usuGenerador": "24116",
-            "usuGeneradorNombre": "ZAISER MARISEL ROSANA",
-            "usuGeneradorRol": "ROL_PRODUCTOR",
-            "titulo": "CAS-99-2024 - Autorizaciones",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "usuPropietario": null,
-            "usuPropietarioNombre": null,
-            "usuPropietarioRol": null,
-            "estado": {
-                "id": 3,
-                "descripcion": null,
-                "nombre": "Pendiente"
-            },
-            "grupoCodigo": 2,
-            "fechaModificacion": null,
-            "areaCodigo": null,
-            "emailContacto": "emailcontacto@mail.com",
-            "emailReceptor": null,
-            "creacionAutomatica": true,
-            "motivo": {
-                "id": 15,
-                "tiempoSLA": 72,
-                "nombre": "Autorizaciones"
-            },
-            "destinatarios": null,
-            "vencimientoSla": "2024-08-30"
-        },
-        {
-            "id": 322,
-            "fechaAlta": "29/07/2024 11:44hs.",
-            "nroCaso": "CAS-98-2024",
-            "usuGenerador": "24116",
-            "usuGeneradorNombre": "ZAISER MARISEL ROSANA",
-            "usuGeneradorRol": "ROL_PRODUCTOR",
-            "titulo": "CAS-98-2024 - MotivoTest",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "usuPropietario": null,
-            "usuPropietarioNombre": null,
-            "usuPropietarioRol": null,
-            "estado": {
-                "id": 2,
-                "descripcion": null,
+                "id": 6,
+                "descripcion": "Expirado",
                 "nombre": "Expirado"
             },
             "grupoCodigo": 2,
             "fechaModificacion": null,
             "areaCodigo": null,
-            "emailContacto": "emailcontacto@mail.com",
+            "emailContacto": "jose.garay@fluxit.com.ar",
+            "emailReceptor": null,
+            "creacionAutomatica": true,
+            "motivo": {
+                "id": 7,
+                "tiempoSLA": null,
+                "nombre": "Consulta derivaciones"
+            },
+            "destinatarios": {
+                "principal": "pruebaa123323.opvr@gmail.com",
+                "conCopia": [],
+                "conCopiaOculta": []
+            }
+        },
+        {
+            "id": 322,
+            "fechaAlta": "2024-07-31",
+            "nroCaso": "CAS-143-2024",
+            "usuGenerador": "Prestador",
+            "usuGeneradorNombre": "Prestador",
+            "usuGeneradorRol": "Prestador",
+            "titulo": "lorem test",
+            "descripcion": "org.hibernate.engine.jdbc.ClobProxy@6b337fcd",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
+            "estado": {
+                "id": 6,
+                "descripcion": "Expirado",
+                "nombre": "Expirado"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": "ezequiel.humar@fluxit.com.ar",
+            "emailReceptor": null,
+            "creacionAutomatica": true,
+            "motivo": {
+                "id": 1,
+                "tiempoSLA": null,
+                "nombre": "Segunda consulta derivaciones"
+            },
+            "destinatarios": {
+                "principal": "pruebaa123323.opvr@gmail.com",
+                "conCopia": [],
+                "conCopiaOculta": []
+            }
+        },
+        {
+            "id": 323,
+            "fechaAlta": "2024-07-31",
+            "nroCaso": "CAS-144-2024",
+            "usuGenerador": "Prestador",
+            "usuGeneradorNombre": "Prestador",
+            "usuGeneradorRol": "Prestador",
+            "titulo": "MENSAJE DE PRUEBA DE MENSAJE 4",
+            "descripcion": "org.hibernate.engine.jdbc.ClobProxy@28ce40ec",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
+            "estado": {
+                "id": 1,
+                "descripcion": "Pendiente",
+                "nombre": "Pendiente"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": "jose.garay@fluxit.com.ar",
+            "emailReceptor": null,
+            "creacionAutomatica": true,
+            "motivo": {
+                "id": 1,
+                "tiempoSLA": null,
+                "nombre": "Tercera consulta derivaciones"
+            },
+            "destinatarios": {
+                "principal": "pruebaa123323.opvr@gmail.com",
+                "conCopia": [],
+                "conCopiaOculta": []
+            }
+        },
+        {
+            "id": 324,
+            "fechaAlta": "2024-07-31",
+            "nroCaso": "CAS-144-2024",
+            "usuGenerador": "Prestador",
+            "usuGeneradorNombre": "Prestador",
+            "usuGeneradorRol": "Prestador",
+            "titulo": "MENSAJE DE PRUEBA DE MENSAJE 4",
+            "descripcion": "org.hibernate.engine.jdbc.ClobProxy@28ce40ec",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
+            "estado": {
+                "id": 1,
+                "descripcion": "Esperando Respuesta",
+                "nombre": "Esperando Respuesta"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": "jose.garay@fluxit.com.ar",
+            "emailReceptor": null,
+            "creacionAutomatica": true,
+            "motivo": {
+                "id": 1,
+                "tiempoSLA": null,
+                "nombre": "Tercera consulta derivaciones"
+            },
+            "destinatarios": {
+                "principal": "pruebaa123323.opvr@gmail.com",
+                "conCopia": [],
+                "conCopiaOculta": []
+            }
+        },
+        {
+            "id": 325,
+            "fechaAlta": "2024-07-31",
+            "nroCaso": "CAS-144-2024",
+            "usuGenerador": "Prestador",
+            "usuGeneradorNombre": "Prestador",
+            "usuGeneradorRol": "Prestador",
+            "titulo": "MENSAJE DE PRUEBA DE MENSAJE 4",
+            "descripcion": "org.hibernate.engine.jdbc.ClobProxy@28ce40ec",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
+            "estado": {
+                "id": 1,
+                "descripcion": "En gestión",
+                "nombre": "En gestión"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": "jose.garay@fluxit.com.ar",
+            "emailReceptor": null,
+            "creacionAutomatica": true,
+            "motivo": {
+                "id": 1,
+                "tiempoSLA": null,
+                "nombre": "Observaciones"
+            },
+            "destinatarios": {
+                "principal": "pruebaa123323.opvr@gmail.com",
+                "conCopia": [],
+                "conCopiaOculta": []
+            }
+        },
+        {
+            "id": 326,
+            "fechaAlta": "2024-07-31",
+            "nroCaso": "CAS-144-2024",
+            "usuGenerador": "Prestador",
+            "usuGeneradorNombre": "Prestador",
+            "usuGeneradorRol": "Prestador",
+            "titulo": "MENSAJE DE PRUEBA DE MENSAJE 4",
+            "descripcion": "org.hibernate.engine.jdbc.ClobProxy@28ce40ec",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
+            "estado": {
+                "id": 1,
+                "descripcion": "Anulado",
+                "nombre": "Anulado"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": "jose.garay@fluxit.com.ar",
+            "emailReceptor": null,
+            "creacionAutomatica": true,
+            "motivo": {
+                "id": 1,
+                "tiempoSLA": null,
+                "nombre": "Consultas derivaciones"
+            },
+            "destinatarios": {
+                "principal": "pruebaa123323.opvr@gmail.com",
+                "conCopia": [],
+                "conCopiaOculta": []
+            }
+        },
+        {
+            "id": 327,
+            "fechaAlta": "2024-07-31",
+            "nroCaso": "CAS-144-2024",
+            "usuGenerador": "Prestador",
+            "usuGeneradorNombre": "Prestador",
+            "usuGeneradorRol": "Prestador",
+            "titulo": "MENSAJE DE PRUEBA DE MENSAJE 4",
+            "descripcion": "org.hibernate.engine.jdbc.ClobProxy@28ce40ec",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
+            "estado": {
+                "id": 1,
+                "descripcion": "Cerrado",
+                "nombre": "Cerrado"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": "jose.garay@fluxit.com.ar",
+            "emailReceptor": null,
+            "creacionAutomatica": true,
+            "motivo": {
+                "id": 1,
+                "tiempoSLA": null,
+                "nombre": "Consulta derivaciones"
+            },
+            "destinatarios": {
+                "principal": "pruebaa123323.opvr@gmail.com",
+                "conCopia": [],
+                "conCopiaOculta": []
+            }
+        },
+        {
+            "id": 328,
+            "fechaAlta": "2024-07-31",
+            "nroCaso": "CAS-144-2024",
+            "usuGenerador": "Prestador",
+            "usuGeneradorNombre": "Prestador",
+            "usuGeneradorRol": "Prestador",
+            "titulo": "MENSAJE DE PRUEBA DE MENSAJE 4",
+            "descripcion": "org.hibernate.engine.jdbc.ClobProxy@28ce40ec",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
+            "estado": {
+                "id": 1,
+                "descripcion": "Reabierto",
+                "nombre": "Reabierto"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": "jose.garay@fluxit.com.ar",
+            "emailReceptor": null,
+            "creacionAutomatica": true,
+            "motivo": {
+                "id": 1,
+                "tiempoSLA": null,
+                "nombre": "Consulta derivaciones"
+            },
+            "destinatarios": {
+                "principal": "pruebaa123323.opvr@gmail.com",
+                "conCopia": [],
+                "conCopiaOculta": []
+            }
+        },
+        {
+            "id": 361,
+            "fechaAlta": null,
+            "nroCaso": "CAS-146-2024",
+            "usuGenerador": "24116",
+            "usuGeneradorNombre": "ZAISER MARISEL ROSANA",
+            "usuGeneradorRol": "ROL_PRODUCTOR",
+            "titulo": "CAS-146-2024 - 010-Dictámenes",
+            "descripcion": "PRUEBA DE EJEMPLO 6.",
+            "usuPropietario": null,
+            "usuPropietarioNombre": null,
+            "usuPropietarioRol": null,
+            "vencimientoSla": "2024-07-31 10:30",
+            "slaTimeCounter": "12:45",
+            "estado": {
+                "id": 1,
+                "descripcion": "Pendiente",
+                "nombre": "Pendiente"
+            },
+            "grupoCodigo": 2,
+            "fechaModificacion": null,
+            "areaCodigo": null,
+            "emailContacto": null,
             "emailReceptor": null,
             "creacionAutomatica": false,
             "motivo": {
-                "id": 15,
-                "tiempoSLA": 72,
-                "nombre": "MotivoTest"
+                "id": 1,
+                "tiempoSLA": null,
+                "nombre": "Consulta derivaciones"
             },
-            "destinatarios": null,
-            "vencimientoSla": "2024-08-30"
+            "destinatarios": {
+                "principal": "principal@example.com",
+                "conCopia": [
+                    "copia1@example.com",
+                    "copia2@example.com"
+                ],
+                "conCopiaOculta": [
+                    "copia1@example.com",
+                    "copia2@example.com"
+                ]
+            }
         }
     ]
 }
